@@ -4,7 +4,6 @@
     <list default="true" id="a9244200-65e0-4828-a457-b78087137e36" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/article/show.html.twig" afterPath="$PROJECT_DIR$/templates/article/show.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,12 +31,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="article_show.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/js/article_show.js">
+      <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-              <folding />
+            <state relative-caret-position="311">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+              <folding>
+                <element signature="e#35#63#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,8 +68,8 @@
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/templates/article/homepage.html.twig" />
         <option value="$PROJECT_DIR$/templates/article/show.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/ArticleController.php" />
         <option value="$PROJECT_DIR$/public/js/article_show.js" />
+        <option value="$PROJECT_DIR$/src/Controller/ArticleController.php" />
       </list>
     </option>
   </component>
@@ -170,6 +171,11 @@
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="KNPU_Symfony4_Stellar_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KNPU_Symfony4_Stellar_Dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="var" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -213,12 +219,12 @@
       <updated>1517565308003</updated>
       <workItem from="1517565312663" duration="76000" />
       <workItem from="1517565419706" duration="9405000" />
-      <workItem from="1517581564921" duration="1725000" />
+      <workItem from="1517581564921" duration="3010000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11206000" />
+    <option name="totallyTimeSpent" value="12491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="950" y="0" width="980" height="1030" extended-state="0" />
@@ -259,18 +265,7 @@
         <state relative-caret-position="1040">
           <caret line="40" column="60" lean-forward="false" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
           <folding>
-            <marker date="1517582381137" expanded="true" signature="39:246" ph="..." />
-            <marker date="1517582381137" expanded="true" signature="298:1074" ph="{...}" />
-            <marker date="1517582381137" expanded="true" signature="308:354" ph=" @Route(&quot;/&quot;, name=&quot;app_homepage&quot;) ..." />
-            <marker date="1517582381137" expanded="true" signature="387:459" ph="{...}" />
-            <marker date="1517582381137" expanded="false" signature="424:450" ph="article/homepage" />
-            <marker date="1517582381137" expanded="true" signature="468:525" ph=" @Route(&quot;/news/{slug}&quot;, name=&quot;article_show&quot;) ..." />
-            <marker date="1517582381137" expanded="true" signature="559:799" ph="{...}" />
-            <marker date="1517582381137" expanded="true" signature="657:790" ph="..." />
-            <marker date="1517582381137" expanded="false" signature="658:680" ph="article/show" />
-            <marker date="1517582381137" expanded="true" signature="684:789" ph="..." />
-            <marker date="1517582381137" expanded="true" signature="808:897" ph=" @Route(&quot;/news/{slug}/heart&quot;, name=&quot;article_toggle_heart&quot;, methods={&quot;POST&quot;}) ..." />
-            <marker date="1517582381137" expanded="true" signature="945:1071" ph="{...}" />
+            <element signature="e#35#63#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -415,32 +410,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
+    <entry file="file://$PROJECT_DIR$/public/js/article_show.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="364">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
           <folding>
-            <marker date="1517582381137" expanded="true" signature="39:246" ph="..." />
-            <marker date="1517582381137" expanded="true" signature="298:1074" ph="{...}" />
-            <marker date="1517582381137" expanded="true" signature="308:354" ph=" @Route(&quot;/&quot;, name=&quot;app_homepage&quot;) ..." />
-            <marker date="1517582381137" expanded="true" signature="387:459" ph="{...}" />
-            <marker date="1517582381137" expanded="false" signature="424:450" ph="article/homepage" />
-            <marker date="1517582381137" expanded="true" signature="468:525" ph=" @Route(&quot;/news/{slug}&quot;, name=&quot;article_show&quot;) ..." />
-            <marker date="1517582381137" expanded="true" signature="559:799" ph="{...}" />
-            <marker date="1517582381137" expanded="true" signature="657:790" ph="..." />
-            <marker date="1517582381137" expanded="false" signature="658:680" ph="article/show" />
-            <marker date="1517582381137" expanded="true" signature="684:789" ph="..." />
-            <marker date="1517582381137" expanded="true" signature="808:897" ph=" @Route(&quot;/news/{slug}/heart&quot;, name=&quot;article_toggle_heart&quot;, methods={&quot;POST&quot;}) ..." />
-            <marker date="1517582381137" expanded="true" signature="945:1071" ph="{...}" />
+            <marker date="1517583289407" expanded="true" signature="28:410" ph="{...}" />
+            <marker date="1517583289407" expanded="true" signature="79:406" ph="{...}" />
+            <marker date="1517583289407" expanded="true" signature="231:306" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1517583289407" expanded="true" signature="328:398" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/article_show.js">
+    <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding />
+        <state relative-caret-position="311">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="e#35#63#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
